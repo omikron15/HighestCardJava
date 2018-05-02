@@ -19,4 +19,18 @@ public class Player {
         return hand.size();
     }
 
+    public void getCard(Card newCard){
+        this.hand.add(newCard);
+    }
+
+    public int handTotal(){
+        int total = 0;
+
+        for (Card card : this.hand){
+            total += card.getValueFromEnum();
+        }
+
+        return total;
+    }
+
 }
