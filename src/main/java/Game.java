@@ -46,7 +46,7 @@ public class Game {
         }
 
         if (results.size() > 1){
-            if (results.get(0).getName() == results.get(1).getName() ){
+            if (results.get(0) == results.get(1) ){
                 results.remove(0);
             }
         }
