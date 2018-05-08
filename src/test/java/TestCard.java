@@ -12,10 +12,10 @@ public class TestCard {
         card = new Card(Suit.SPADES, Rank.ACE);
     }
 
-    @Test
-    public void getSuit(){
-        assertEquals(Suit.SPADES, card.getSuit());
-    }
+//    @Test
+//    public void getSuit(){
+//        assertEquals(Suit.SPADES, card.getSuit());
+//    }
 
     @Test
     public void getRank(){
